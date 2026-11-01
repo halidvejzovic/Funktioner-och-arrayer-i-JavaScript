@@ -1,5 +1,12 @@
-const square = function(x) {
-  return x * x;
+const person = {
+  namn: "Halid",
+  ålder: 40,
+
+  adress: {
+    adress: "kalvshällavägen 42",
+    postnumer: 17745
+  }
 };
 
-console.log(square(12));
+console.log(person);
+console.log(person.adress);
