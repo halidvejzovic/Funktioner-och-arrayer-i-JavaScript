@@ -29,3 +29,5 @@ const person1 = [
 
 console.log(person1[1].adress);
 console.log(person1[0]);
+
+
